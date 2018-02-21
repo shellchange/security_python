@@ -22,9 +22,9 @@ def connect(user,host,password):
   child.expect(PROMPT)
   return child
 def main():
-  host = '121.40.222.87'
+  host = '127.0.0.1'
   user = 'root'
-  password = 'kk2l110L'
+  password = 'cc9595*&'
   child = connect(user,host,password)
   send_command(child,'cat /etc/shadow | grep sys')
 if __name__ == '__main__':
